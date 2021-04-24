@@ -1,0 +1,11 @@
+button {
+  margin: 1rem;
+}
+
+output {
+  border: 1px solid;
+  display: inline-block;
+  min-height: 1.3em;
+  min-width: 15ch;
+  vertical-align: text-top;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "grad-assignment",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "first": "PORT=8080 node ./bin/www",
+    "second": "PORT=8081 node ./bin/www",
+    "first-dev": "PORT=8080 nodemon --inspect ./bin/www",
+    "second-dev": "PORT=8081 nodemon --inspect ./bin/www",
+    "start": "npm run first & npm run second",
+    "start-dev": "npm run first-dev & npm run second-dev"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
+  }
+}

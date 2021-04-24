@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 #{title} Port #{port}
+  div
+    button#test8080 Test 8080
+    output#output8080
+  div
+    button#test8081 Test 8081
+    output#output8081
+  script(src='/javascripts/call-api.js')
